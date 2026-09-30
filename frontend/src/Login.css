@@ -1,0 +1,149 @@
+.login-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 32px;
+  background: #f5f7f8;
+}
+
+.login-card {
+  width: 100%;
+  max-width: 430px;
+  padding: 42px;
+  background: white;
+  border: 1px solid #e4e8eb;
+  border-radius: 20px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.08);
+}
+
+.login-brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 42px;
+}
+
+.login-brand h1 {
+  margin: 0;
+  font-size: 24px;
+  color: #111827;
+}
+
+.login-brand span {
+  color: #7b8490;
+  font-size: 12px;
+}
+
+.brand-mark {
+  width: 42px;
+  height: 42px;
+  display: grid;
+  place-items: center;
+  border-radius: 12px;
+  background: #111827;
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.login-heading {
+  margin-bottom: 28px;
+}
+
+.login-heading h2 {
+  margin: 8px 0;
+  font-size: 30px;
+  color: #111827;
+}
+
+.login-heading p {
+  margin: 0;
+  color: #7b8490;
+  line-height: 1.6;
+}
+
+.section-label {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  color: #6b7280;
+}
+
+.login-card form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.login-card label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  color: #374151;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.login-card input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 14px 15px;
+  border: 1px solid #d9dee3;
+  border-radius: 10px;
+  outline: none;
+  font-size: 14px;
+}
+
+.login-card input:focus {
+  border-color: #111827;
+}
+
+.login-button {
+  margin-top: 6px;
+  padding: 14px;
+  border: none;
+  border-radius: 10px;
+  background: #111827;
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.login-button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.login-error {
+  padding: 12px;
+  border-radius: 8px;
+  background: #fff1f1;
+  color: #c62828;
+  font-size: 13px;
+}
+
+.demo-login {
+  margin-top: 25px;
+  padding: 15px;
+  border-radius: 10px;
+  background: #f6f7f8;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 12px;
+  color: #6b7280;
+}
+
+.demo-login strong {
+  color: #374151;
+  margin-bottom: 3px;
+}
+
+.login-footer {
+  margin-top: 20px;
+  color: #8a929b;
+  font-size: 12px;
+}
